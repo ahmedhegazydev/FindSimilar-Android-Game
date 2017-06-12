@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.ahmed.level1"
+    android:versionCode="4"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="24" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppBaseTheme.NoTitle" >
+        
+        
+        
+        <activity
+            android:name="com.ahmed.start.Start"
+            >
+            
+        </activity>
+        
+        <activity
+            android:name="com.ahmed.level1.Level1"
+            android:label="@string/title_activity_start_game" >
+             
+        </activity>
+        
+        
+        <activity
+            android:name="com.ahmed.level2.Level2">
+       
+            
+        </activity>
+        
+        <activity android:name="com.ahmed.level3.Level3">
+            
+            
+        </activity>
+        
+        <activity
+            android:name="com.ahmed.level5.Level5"
+            >
+
+        </activity>
+        
+        <activity 
+            android:name="com.ahmed.level6.Level6"
+            ></activity>
+        
+        
+        <activity
+            android:name="com.ahmed.win.Win"
+            >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter> 
+            
+        </activity>
+        
+    </application>
+
+</manifest>
